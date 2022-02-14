@@ -47,7 +47,7 @@ EbNo = 0:0.5:9.5;
 EbNoratio = 10.^(EbNo/10);
 bound = 0;
 for i=1:n
-    bound = bound + i*W(i+1)/n * Q(sqrt(2*i*(k/n)*EbNoratio));
+    bound = bound + i*W(i+1)/n * qfunc(sqrt(2*i*(k/n)*EbNoratio));
 end
 
 % semilogy(EbNo,bound,'-o')
@@ -58,4 +58,4 @@ xlabel('E_b/N_0 (dB)')
 ylabel('P_b')
 hold on
 
-% semilogy(EbNo, Q(sqrt(2*EbNoratio)))
+ semilogy(EbNo, qfunc(sqrt(2*EbNoratio)))
