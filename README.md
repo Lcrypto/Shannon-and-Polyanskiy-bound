@@ -12,7 +12,11 @@ References:
 
 [4] A. Valembois and M. P. C. Fossorier, "Sphere-packing bounds  revisited for moderate block lengths," in IEEE Transactions  on Information Theory, vol. 50, no. 12, pp. 2998-3014, Dec.   2004, doi: 10.1109/TIT.2004.838090.
 
-[5] G. Vazquez-Vilar, "Error Probability Bounds for Gaussian Channels Under Maximal and Average Power Constraints," in IEEE Transactions on Information Theory, vol. 67, no. 6, pp. 3965-3985, June 2021, doi: 10.1109/TIT.2021.3063311.
+[5] D. J. Costello and G. D. Forney, "Channel coding: The road to channel capacity," in Proceedings of the IEEE, vol. 95, no. 6, pp. 1150-1177, June 2007, doi: 10.1109/JPROC.2007.895188.  Good review and details on union bound, power limited and bandwith limited regime of communication
+
+[6] T. Erseghe, "On the Evaluation of the Polyanskiy-Poor–Verdú Converse Bound for Finite Block-Length Coding in AWGN," in IEEE Transactions on Information Theory, vol. 61, no. 12, pp. 6578-6590, Dec. 2015, doi: 10.1109/TIT.2015.2494061.
+
+[7] G. Vazquez-Vilar, "Error Probability Bounds for Gaussian Channels Under Maximal and Average Power Constraints," in IEEE Transactions on Information Theory, vol. 67, no. 6, pp. 3965-3985, June 2021, doi: 10.1109/TIT.2021.3063311.
 
 
 ![alt text](https://github.com/Lcrypto/Shannon-and-Polyanskiy-bound/blob/master/ConverseBound.png)
