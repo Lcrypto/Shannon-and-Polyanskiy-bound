@@ -15,7 +15,7 @@ References:
 
 
 
-![alt text](https://github.com/Lcrypto/Shannon-and-Polyanskiy-bound/blob/master/ConverseBound.png]
+![alt text](https://github.com/Lcrypto/Shannon-and-Polyanskiy-bound/blob/master/ConverseBound.png)
 
 
 ![alt text](https://github.com/Lcrypto/Shannon-and-Polyanskiy-bound/blob/master/SPB_half_rate.png)
