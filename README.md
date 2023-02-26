@@ -14,5 +14,8 @@ References:
 % 2004, doi: 10.1109/TIT.2004.838090.
 
 
+![alt text](https://github.com/Lcrypto/Shannon-and-Polyanskiy-bound/blob/master/Finite_Length_Bounds/demo.jpg]
+
+
 ![alt text](https://github.com/Lcrypto/Shannon-and-Polyanskiy-bound/blob/master/SPB_half_rate.png)
 
