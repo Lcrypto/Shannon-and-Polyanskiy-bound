@@ -1,0 +1,82 @@
+%In Gonzalo's paper on deriving lower bound for power constrained channel
+%He give a condition on rate. If considered rate is less than a threshold
+%A simplification can be used. The script generates Fig.2. I want to make
+%sure that I understand this condition correctly.
+
+clear
+addpath("../../Information-Bottleneck-toolbox/")
+Figuresetting
+
+n=100 ; %block length
+snr=5; %SNR
+
+figure;
+hold on
+
+
+
+gamma=1; %average power constraint
+sigma2=10^(-0.1*snr); %sigma2
+theta2=gamma+sigma2; %theta2
+delta=theta2-sigma2; %delta
+sigma=sqrt(sigma2);
+theta=sqrt(theta2);
+delta2=delta^2;
+
+n_value = 16:2:200;
+rate=zeros(size(n_value));
+
+for  ii = 1:length(n_value)
+
+n=100;
+ 
+xi_1 = @(t) (stable_marcumq(sqrt(n*gamma)*sigma/delta,t/sigma,n/2))-(stable_marcumq(0,sqrt(maxplus(t.^2/sigma2-n*gamma*theta2/delta2)),n/2));
+xi_2 = @(t) theta^n/sigma^n*exp(0.5*(n*gamma/delta-delta*t.^2/sigma2/theta2)).*((stable_marcumq(0,sqrt(maxplus(t.^2/theta2-n*gamma*sigma2/delta2)),n/2))-(stable_marcumq(sqrt(n*gamma)*theta/delta,t/theta,n/2)));
+xi_3 = @(t) n*gamma/2/delta*((t.*delta)/(sigma2*sqrt(n*gamma))).^(n/2).*exp(-0.5*(n*gamma*sigma2/delta2+t.^2/sigma2)).*besseli(n/2,sqrt(n*gamma)*t/delta);
+xii = @(t) xi_1(t)+xi_2(t)+xi_3(t);
+    
+
+t_left = 0;
+t_right = 10;
+t= t_left:0.1:t_right;
+y=xii(t);
+[~,max_pos] = max(y);
+t_left = t(max_pos);
+
+%the following for loop determines t0
+t0=0;
+while true
+    if abs(t_left-t_right)<10^-5
+        t0=(t_right+t_left)/2;
+        break
+    else
+        t_prime = (t_right+t_left)/2;
+        if xii(t_prime)>0
+            t_left=t_prime;
+        elseif xii(t_prime)<0
+            t_right=t_prime;
+        else
+            t0=t_prime;
+            break;
+        end
+    end
+end
+bar_R_n=-1/n*log2(1-stable_marcumq(sqrt(n*gamma)*theta/delta,t0/theta,n/2));
+%rate(ii)=bar_R_n;
+rate(ii)=1/ncx2cdf
+end
+
+plot(n_value,rate,"DisplayName", strcat("$\bar{R}_n$ [",num2str(snr)," dB]"));
+
+
+grid on
+xlabel("blocklength, $n$","Interpreter","latex")
+ylabel("rate, $R$(bits/channel use)","Interpreter","latex")
+legend show
+hold off
+
+
+function y=maxplus(x)
+y=x;
+y(x<=0)=0;
+end
