@@ -1,6 +1,6 @@
 Matlab and Python(Jupyter) implementation of Different Information Theoretical Bounds: Shannon limit, Sphere Packaging Bound, Union Bound, Finite-lenght Polyanskiy bound (FER, Spectral efficiency), G. Vazquez-Vilar Converse Bound
 
-![alt text](https://github.com/Lcrypto/Shannon-and-Polyanskiy-bound/blob/master/ConverseBound.png]
+
 
 References:
 % G. Vazquez-Vilar, "Error Probability Bounds for Gaussian Channels Under 
@@ -15,7 +15,7 @@ References:
 
 
 
-
+![alt text](https://github.com/Lcrypto/Shannon-and-Polyanskiy-bound/blob/master/ConverseBound.png]
 
 
 ![alt text](https://github.com/Lcrypto/Shannon-and-Polyanskiy-bound/blob/master/SPB_half_rate.png)
