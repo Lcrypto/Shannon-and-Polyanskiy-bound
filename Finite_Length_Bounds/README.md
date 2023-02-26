@@ -1,6 +1,6 @@
 # Finite Length Converse Bounds Under AGWN Channel
 
-This repository gives the following converse bounds under addtive Gausian white noise (AWGN) channel:
+This repository (fork of Linfang https://github.com/BigBluBruin/ )  gives the following converse bounds under addtive Gausian white noise (AWGN) channel:
 
 - Shannon's 1959 Sphere Packing Bound
 - Gonzela's Converse bound for power-constrained AWGN channel.
