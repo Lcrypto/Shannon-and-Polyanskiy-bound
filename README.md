@@ -1,5 +1,4 @@
-Matlab and Python(Jupyter) implementation of Different Information Theoretical Bounds: Shannon limit, Sphere Packaging Bound, Union Bound, Finite-lenght Polyanskiy bound (FER, Spectral efficiency), G. Vazquez-Vilar Converse Bound 
-
+Matlab and Python(Jupyter) implementation of Different Information Theoretical Bounds: Shannon limit, Sphere Packaging Bound, Union Bound, Finite-lenght Polyanskiy bound (FER, Spectral efficiency), G. Vazquez-Vilar Converse Bound , Cramer-Rao Bound
 
 
 References:
@@ -23,3 +22,7 @@ References:
 
 
 ![alt text](https://github.com/Lcrypto/Shannon-and-Polyanskiy-bound/blob/master/SPB_half_rate.png)
+
+
+[Cram\u00e9r-Rao bound](http://en.wikipedia.org/wiki/Cram%C3%A9r%E2%80%93Rao_bound) is a lower limit on the variance of estimators of a deterministic parameter
+
