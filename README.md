@@ -17,6 +17,9 @@ References:
 
 [7] G. Vazquez-Vilar, "Error Probability Bounds for Gaussian Channels Under Maximal and Average Power Constraints," in IEEE Transactions on Information Theory, vol. 67, no. 6, pp. 3965-3985, June 2021, doi: 10.1109/TIT.2021.3063311.
 
+[8] Cramér, Harald (1946). Mathematical Methods of Statistics. Princeton, NJ: Princeton Univ. Press. ISBN 0-691-08004-6. OCLC 185436716.
+[9] Rao, Calyampudi Radakrishna (1945). "Information and the accuracy attainable in the estimation of statistical parameters". Bulletin of the Calcutta Mathematical Society. 37: 81–89. MR 0015748.
+
 
 ![alt text](https://github.com/Lcrypto/Shannon-and-Polyanskiy-bound/blob/master/ConverseBound.png)
 
