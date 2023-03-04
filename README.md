@@ -29,5 +29,5 @@ References:
 ![alt text](https://github.com/Lcrypto/Shannon-and-Polyanskiy-bound/blob/master/SPB_half_rate.png)
 
 
-[Cram\u00e9r-Rao bound](http://en.wikipedia.org/wiki/Cram%C3%A9r%E2%80%93Rao_bound) is a lower limit on the variance of estimators of a deterministic parameter
+[Cramer-Rao bound](http://en.wikipedia.org/wiki/Cram%C3%A9r%E2%80%93Rao_bound) is a lower limit on the variance of estimators of a deterministic parameter
 
