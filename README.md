@@ -1,4 +1,4 @@
-Matlab and Python(Jupyter) implementation of Different Information Theoretical Bounds: Shannon limit, Sphere Packaging Bound, Union Bound, Finite-lenght Polyanskiy bound (FER, Spectral efficiency), G. Vazquez-Vilar Converse Bound , Cramer-Rao Bound
+The GitHub repository contains MATLAB and Python (Jupyter) implementations of different information-theoretical bounds. These include the Shannon limit, sphere packaging bound, union bound, finite-length Polyanskiy bound (FER, spectral efficiency), G. Vazquez-Vilar Converse Bound, and Cramer-Rao Bound.
 
 
 References:
