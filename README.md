@@ -1,3 +1,5 @@
+
+
 The GitHub repository contains MATLAB and Python (Jupyter) implementations of different information-theoretical bounds. These include the Shannon limit, sphere packaging bound, union bound, finite-length Polyanskiy bound (FER, spectral efficiency), G. Vazquez-Vilar Converse Bound, and Cramer-Rao Bound.
 
 
